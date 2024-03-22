@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE470 Test bookstore</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+
+<!-- header section starts-->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> CSE470 Test bookstore </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="./cart.html" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="#featured">featured</a>
+            <a href="#">category</a>
+            <a href="#reviews">reviews</a>
+            <a href="./feedback.html">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 100% off for asif sir</h3>
+            <p>If you’re a book worm then you are in a right place.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""></a>
+            </div>
+            <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="./product.html"> <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./product.html"> <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="product.html"><img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://raw.https://private-user-images.githubusercontent.com/114650443/309346727-726e2245-5300-4b9a-a170-aeba911d81ec.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkzMTYyMDcsIm5iZiI6MTcwOTMxNTkwNywicGF0aCI6Ii8xMTQ2NTA0NDMvMzA5MzQ2NzI3LTcyNmUyMjQ1LTUzMDAtNGI5YS1hMTcwLWFlYmE5MTFkODFlYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwMVQxNzU4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjQ0NDYzNjJiMDc2N2U2Y2FhYTJlNWY4MTVhZWIzN2YzNWM3ODY5YzYxYWUxYTYwZmY3OTM3M2RhZjQwNTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZoXD_7T-xzkP6CFyOoVYpdLTZ2DH3EXcNl_XOVO3XRI" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
