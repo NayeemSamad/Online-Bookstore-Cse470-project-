@@ -1,15 +1,9 @@
-const express = require("express")
+import express from "express";
 const app = express();
-
-app.get("/", (req,res)=>{
-    res.send("Hello Homepage");
-});
-app.get("/services", (req,res)=>{
-    res.send("Service page");
-});
-app.get("/about", (req,res)=>{
-    res.send("about page");
-});
+import bookRoute from "./routes/bookRoutes";
+import "./Connections/connect";
+app.use(express,json())
+app.use("/api/v1",bookRoute);
 app.listen(1000,()=>{
     console.log("Server Started Successfully");
 });
